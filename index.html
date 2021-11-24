@@ -8,12 +8,14 @@
     <title>Oleg Gert</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="./images/lil_logo.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
     <nav class="nav">
-        <div class="nav_left">
+        <div class="nav_    left">
             <img src="./images/logo.svg" alt=""></div>
 
             <ul class="nav_right">
@@ -47,20 +49,42 @@
                 <img src="./images/arrow_up.svg" alt="">
                 <img src="./images/arrow_down.svg" alt="">
             </div>
+            <div class="page_nav">
+                <ul>
+                    <li class="active">
+                        <div class="page_nav_text">01</div>
+                        <a href="#"><span></span></a>
+                    </li>
+                    <li>
+                        <a href="#gallery1"><span></span></a>
+                    </li>
+                    <li>
+                        <a href="#blog1"><span></span></a>
+                    </li>
+                    <li>
+                        <a href="#contacts1"><span></span></a>
+                    </li>
+                </ul>
+            </div>
             <div id="page_full" class="pages">
                 <section id="home1" class="home">
+                    <img src="./images/header/bg_1.png" class="home_img" alt="">
                     <div class="container">
                         <div class="home_left">
-                            <h1 class="section_title">Hello, My name is</h1>
+                            <h1 class="section_title">Hello,<br> My name is</h1>
                             <span>Oleg Gert</span>
                             <p class="section_text">i'm illustrator and art-director from Russia</p>
                         </div>
                         <div class="home_right">
-                            <img src="./images/header/img_1.png" alt="">
+                            <div class="home_right_inner">
+                                <img src="./images/header/img_1.png" alt="">
+                            </div>
+                            <span>Latest <br> in blog</span>
                         </div>
                     </div>
                 </section>
                 <section id="gallery1" class="gallery">
+                    <div class="gallery_prev"><img src="./images/gallery/arrow_left.svg" alt=""></div>
                     <div class="container">
                         <div class="gallery_intro">
                             <h1 class="section_title">Gallery</h1>
@@ -68,13 +92,18 @@
                             <a href="#" class="btn btn_trans btn_gallery">watch works</a>
                             <div class="gallery_parthner">
                                 <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
+                                <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
+                                <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
+                                <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
+                                <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
+                                <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
+                                <div><img src="./images/gallery/parthner/coca-cola.png" alt=""></div>
                             </div>
                         </div>
-                        <div class="gallery_prev"><img src="./images/gallery/arrow_left.svg" alt=""></div>
-                        <div class="gallery_prev"><img src="./images/gallery/arrow_right.svg" alt=""></div>
+                        
                         <div class="gallery_carousel show">
-                            <div class="gallery_carousel_close"><img src="" alt=""></div>
-                            <div class="gallery_carousel_show"><img src="" alt=""></div>
+                            <div class="gallery_carousel_close"><img src="./images/gallery/carousel/close.svg" alt=""></div>
+                            <div class="gallery_carousel_show"><img src="./images/gallery/carousel/view.svg" alt=""></div>
                             <div class="gallery_carousel_count">
                                 <div class="gallery_carousel_count_active">1</div>
                                 <div class="gallery_carousel_count_all">169</div>
@@ -88,6 +117,7 @@
                                         <div class="gallery_carousel_inner_item_content">
                                             <img src="./images/gallery/carousel/img_1.jpg" alt="">
                                         </div>
+                                        
                                     </a>
                                 </div>
                             </div>
@@ -97,37 +127,74 @@
                                     <img src="./images/gallery/carousel/icon_2.png" alt="">
                                 </div>
                                 <div class="gaklery_carousel_content_inner">
-                                    <div class="gallery_carousel_content_inner_outer">
-                                        <div class="gallery_carousel_content_inner_outer_stage">
-                                            <div class="gallery_carousel_content_inner_outer_stage_item">
-                                                <div class="gallery_carousel_content_inner_outer_stage_item_slide">
-                                                    <div class="gallery_carousel_content_inner_outer_stage_item_slide_icon">
-                                                        <img src="./images/gallery/carousel/icon_1.png" alt="">
-                                                        <img src="./images/gallery/carousel/icon_2.png" alt=""></div>
-                                                    <img src="./images/gallery/carousel/img/img_1.jpg" alt="" class="gallery_carousel_content_inner_outer_stage_item_slide_img">
-                                                </div>
-                                            </div>
+                                    <div class="gallery_carousel_content_inner_item">
+                                        <div class="gallery_carousel_content_inner_items">
+                                        <img src="./images/gallery/carousel/img/img_1.jpg" alt="" class="gallery_carousel_content_inner_items_img">
+                                        </div>
+                                        <div class="gallery_carousel_content_inner_items">
+                                        <img src="./images/gallery/carousel/img/img_1.jpg" alt="" class="gallery_carousel_content_inner_items_img">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="gallery_next"><img src="./images/gallery/arrow_right.svg" alt=""></div>
                 </section>
                 <section id="blog1" class="blog">
                     <div class="container">
                         <h2 class="section_title_1">blog posts</h2>
                         <div class="blog_wrapper">
                             <div class="blog_wrapper_container">
+                                <div class="blog_wrapper_container_grid item1   ">
+                                    <div href="blog.hmtl" class="blog_wrapper_container_grid_inner">
+                                        <img src="./images/blog/img_1.png" alt="">
+                                        <div class="blog_wrapper_container_grid_inner_content">
+                                            <small>July 2, 2021</small>
+                                            <div class="text">Download my Photoshop brushes<br><span></span></div>
+                                            <a href="blog.html" class="blog_link">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="blog_wrapper_container_grid">
-                                    <a href="blog.hmtl" class="blog_wrapper_container_grid_inner">
+                                    <div href="blog.hmtl" class="blog_wrapper_container_grid_inner">
                                         <img src="./images/blog/img_1.png" alt="">
                                         <div class="blog_wrapper_container_grid_inner_content">
                                             <small>July 2, 2021</small>
                                             <div>Download my Photoshop brushes<br><span></span></div>
-                                            <a href="blog.html" class="blog_link"></a>
+                                            <a href="blog.html" class="blog_link">read more</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                </div>
+                                <div class="blog_wrapper_container_grid">
+                                    <div href="blog.hmtl" class="blog_wrapper_container_grid_inner">
+                                        <img src="./images/blog/img_1.png" alt="">
+                                        <div class="blog_wrapper_container_grid_inner_content">
+                                            <small>July 2, 2021</small>
+                                            <div>Download my Photoshop brushes<br><span></span></div>
+                                            <a href="blog.html" class="blog_link">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_wrapper_container_grid">
+                                    <div href="blog.hmtl" class="blog_wrapper_container_grid_inner">
+                                        <img src="./images/blog/img_1.png" alt="">
+                                        <div class="blog_wrapper_container_grid_inner_content">
+                                            <small>July 2, 2021</small>
+                                            <div>Download my Photoshop brushes<br><span></span></div>
+                                            <a href="blog.html" class="blog_link">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_wrapper_container_grid">
+                                    <div class="blog_wrapper_container_grid_inner">
+                                        <img src="./images/blog/img_1.png" alt="">
+                                        <div class="blog_wrapper_container_grid_inner_content">
+                                            <small>July 2, 2021</small>
+                                            <div>Download my Photoshop brushes<br><span></span></div>
+                                            <a href="blog.html" class="blog_link">read more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="blog_wrapper_scrollbar">
@@ -140,31 +207,31 @@
                     </div>
                 </section>
                 <section id="contacts1" class="contact">
+                    <div class="contact_img">
+                        <img src="./images/contact/img_1.png" alt="">
+                    </div>
                     <div class="container">
-                        <div class="contact_img">
-                            <img src="./images/contact/img_1.png" alt="">
-                        </div>
                         <div class="contact_content">
                             <h2 class="section_title_1">Contacts</h2>
                             <p>
-                                <I 'm illustrator and art director, I live and work in Moscow. In illustrations i like give one's attention to details, it seems to me that this make the pictures plot saturateds, and the illustrations obtained by some tasty and self-sufficient, they
+                                I 'm illustrator and art director, I live and work in Moscow. In illustrations i like give one's attention to details, it seems to me that this make the pictures plot saturateds, and the illustrations obtained by some tasty and self-sufficient, they
                                     are interesting to consider. </p>
                             <p>A few priority creative directions: funny fictional characters, funny animals, story compositions, I love format of posters and prints on T-shirts. </p>
                             <div class="contact_content_info">
                                 <a href="tell:79165521007">+7 916 552 10 07</a>
-                                <a href="mailto:oleg_gert@mail.ru">oleg_gert@mail.ru</a>    
+                                <a href="mailto:oleg_gert@mail.ru" class="mail">oleg_gert@mail.ru</a>    
                             </div>
                             <form action="">
-                                <div class="contact_content_form_describe">
-                                    <p>With pleasure I will draw something for you</p>
+                                <div class="form_describe">
+                                    <p>With pleasure I will  draw something for you</p>
                                 </div>
-                                <input type="text" name="name" placeholder="Name">
+                                <input type="text" name="name" placeholder="Name" >
                                 <input type="text" name="email" placeholder="Email">
                                 <textarea type="text" name="message" placeholder="Message"></textarea>
                                 
                                 <div class="contact_content_submit">
                                     <a href="" class="btn btn_blue btn_contact">Send</a>
-                                    <p>By sending a message you agree with the 
+                                    <p>By sending a message you agree with the <br>
                                         <a href="">processing of personal data</a>
                                     </p>
                                 </div>
@@ -176,14 +243,13 @@
     </main>
     <footer>
         <ul>
-                <li><a href=""><i class="fab fa-instagram"></i>
-                                </a>
-                                </li>
-                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                                </ul>
-                                <p>Created by<a href="#">NIKOLAND</a></p>
-                                </footer>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>            
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>            
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>            
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>            
+        </ul>
+        <p>Created by <a href="#">NIKOLAND</a></p>
+    </footer>
 </body>
 
 </html>
